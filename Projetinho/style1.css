@@ -1,0 +1,85 @@
+body{
+
+    background-image: url('Imagens/fundo\ projetin.png');
+    margin: auto;
+}
+
+.menu{
+
+background-color: transparent;
+display: flex;
+justify-content: flex-end;
+
+}
+
+.logo{
+
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+    width: 300px;
+    height: 100px;
+
+}
+
+.title{
+
+color: aliceblue;
+justify-content: center;
+align-items: center;
+display: flex;
+font-size: 90px;
+}
+
+.title2{
+
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    }
+h1{
+    text-shadow: 2px 2px #000000;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-shadow: 2px 2px #000000;
+    padding: 0;
+    margin: 0;
+}
+
+#caixote{
+    transition: .5s;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 750px;
+    padding: 4px;
+    border-color: azure;
+    box-shadow: 0 10px 20px rgba(247, 245, 245, 0.19), 0 6px 6px rgba(240, 235, 235, 0.23);
+    background-color: #000000;
+   }
+
+   #caixote:hover{
+
+    transform: scale(1.05);
+    transition: .5s;
+    opacity: 1;
+    box-shadow: inset 0 0 0 25px #000000;
+    color: rgb(255, 255, 255)
+   }
+
+   a{
+
+    text-decoration-line: unset ;
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+   }
+

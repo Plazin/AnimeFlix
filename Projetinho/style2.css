@@ -1,0 +1,86 @@
+body {
+    text-align: center;    
+    background-color: rgb(48, 48, 48); 
+    color:aliceblue;
+   
+    }
+    ul {
+      display:flex;
+      justify-content: space-between;
+      list-style-type: none;
+    }
+
+     .anime {
+
+        width: 313px;
+        height: 452px;
+        transition: .5s;  
+        opacity: 0.9;
+     }
+
+     .anime:hover {
+
+      transform: scale(1.05);
+      transition: .5s;
+      opacity: 1;
+      box-shadow: inset 0 0 0 25px #53a7ea;
+   
+   }
+
+     .anime2 {
+        
+        width: 540px;
+        height: 280px;
+        justify-content: center;
+     }
+
+     .caixote{
+      transition: .5s;
+      font-weight: bold;
+      text-align: center;
+      width: 305px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+      border-color: azure;
+      box-shadow: 0 10px 20px rgba(247, 245, 245, 0.19), 0 6px 6px rgba(240, 235, 235, 0.23);
+     }
+
+     .caixote:hover{
+
+      transform: scale(1.05);
+      transition: .5s;
+      opacity: 1;
+      box-shadow: inset 0 0 0 25px #ffffff;
+      color: rgb(48, 48, 48)
+     }
+
+   .titulo{
+      margin:auto;
+      
+   }
+
+
+
+     
+   
+   
+   /* 
+      box-shadow: "posicao x" "posicao Y" "efeito blur" "espalhamento" "cor"
+      background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+
+@ keyframe é sorrizo ronaldo
+   @keyframes rainbow {
+  0% {
+    background-color: blue;
+     }
+     
+. é classe
+# é ID
+e tag não usa nada, só <> e faz parte da tag
+
+usos:
+# usa com id
+e o "." usa com class
+tag não usa nada */
