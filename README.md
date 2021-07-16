@@ -1,13 +1,25 @@
 # AnimeFlix
-<p>❔ Para que serve? Resposta: Serve apenas para estudo</p>
 
-<p>❓ Por que este app? Resposta: Imitar o site da netflix</p>
+<img src="https://i.imgur.com/33YZKXl.jpg" alt="" width="200"/>
 
-<p>💻 Tecnologias utilizadas Resposta: HTML, CSS e Javascript</p>
+💭 Objetivo do site ?
+ 
+ * Fazer um site experimental de stream de animes do estilo isekai
 
-<p> ❕ Observação: Não tenho a intenção de publicar</p>
+🧐 Por que esse tema é o escolhido ? 
+ 
+ * Eu quero criar um site semelhante netflix pois acho o site deles um bom modelo para outros sites de streams
+ 
+🗒️ Planejamento
 
-<p> Imagens abaixo:
+- [x] Página Home
+- [x] Página dos animes
+- [ ] Página de contato
 
-<p> <img src="https://i.imgur.com/BQO2kxm.png" alt="" width="200"/>
-    <img src="https://i.imgur.com/33YZKXl.jpg" alt="" width="200"/>
+👨🏻‍💻 Tecnologias utilizadas: 
+
+* HTML 
+
+* CSS 
+
+* Javascript (em breve)
