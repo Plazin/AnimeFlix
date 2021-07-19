@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body{
 
-    background-image: url('Imagens/fundo\ projetin.png');
-    margin: auto;
+    margin: 0%;
+    padding: 0px;
+
+}
+
+.barra-superior{
+
+    width: 100%;
+    height: 70px;
 }
 
 .menu{
 
-background-color: transparent;
-display: flex;
-justify-content: flex-end;
+background-image: url(Imagens/fundo\ projetin.png);
+width: 100%;
+height: 800px;
 
 }
 
@@ -52,26 +61,81 @@ h2{
     margin: 0;
 }
 
-#caixote{
+#botao-do-bora{
+    font-family:"Bebas Neue";
+    letter-spacing: 2px;
+    color: #ffffff;
     transition: .5s;
     font-weight: bold;
     text-align: center;
-    width: 20%;
+    width: 100px;
+    height: 40px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 10px 750px;
+    margin: 0px 0px 0px 0px;
     padding: 4px;
-    border-color: azure;
-    box-shadow: 0 10px 20px rgba(247, 245, 245, 0.19), 0 6px 6px rgba(240, 235, 235, 0.23);
-    background-color: #000000;
+    border-color: rgba(173, 0, 0, 0);
+    box-shadow: 0 10px 20px rgba(247, 245, 245, 0.027), 0 6px 6px rgba(240, 235, 235, 0.23);
+    background-color: #be0404;
    }
 
-   #caixote:hover{
-
+   #botao-do-bora:hover{
+    cursor:pointer;
     transform: scale(1.05);
     transition: .5s;
     opacity: 1;
     box-shadow: inset 0 0 0 25px #000000;
+    color: rgb(255, 255, 255)
+   }
+
+   #botao-idioma{
+    cursor:pointer;
+    color: #000000;
+    transition: .5s;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 30px 0px 0 1500px; 
+    padding: 4px;
+    border-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+   }
+
+   #botao-idioma:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: .5s;
+    opacity: 1;
+    box-shadow: inset 0 0 0 25px #000000;
+    color: rgb(255, 255, 255)
+   }
+
+   #botao-entrar{
+    cursor:pointer;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 30px 0px 0 25px;
+    padding: 4px;
+    border-color: rgb(184, 28, 0);
+    background-color: #a50000;
+   }
+
+   #botao-entrar:hover{
+
+    transform: scale(1.05);
+    transition: .5s;
+    opacity: 1;
+    box-shadow: inset 0 0 0 25px #a30000;
     color: rgb(255, 255, 255)
    }
 
@@ -84,3 +148,21 @@ h2{
     color: rgb(255, 255, 255); 
    }
 
+   .email-container{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+
+    
+   }
+
+#caixa-de-email{
+
+    width: 500px;
+    height: 30px;
+
+}
+
+   
+
+/*=====================================================================================*/
