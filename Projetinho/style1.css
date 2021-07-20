@@ -15,9 +15,10 @@ body{
 
 .menu{
 
-background-image: url(Imagens/fundo\ projetin.png);
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagens/fundo\ projetin.png);
 width: 100%;
 height: 800px;
+background-position: right;
 
 }
 
@@ -49,14 +50,24 @@ font-size: 90px;
     display: flex;
     font-size: 40px;
     }
+
 h1{
-    text-shadow: 2px 2px #000000;
+    text-shadow: 0.5px 0.5px #000000;
     padding: 0;
     margin: 0;
 }
 
+/*
 h2{
     text-shadow: 2px 2px #000000;
+    padding: 0;
+    margin: 0;
+}
+*/
+
+h3{
+    font-family:"Bebas Neue";
+    text-shadow: 0.5px 0.5px #000000;
     padding: 0;
     margin: 0;
 }
@@ -68,8 +79,8 @@ h2{
     transition: .5s;
     font-weight: bold;
     text-align: center;
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 55px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 0px 0px 0px 0px;
@@ -89,6 +100,7 @@ h2{
    }
 
    #botao-idioma{
+    font-family:"Bebas Neue";
     cursor:pointer;
     color: #000000;
     transition: .5s;
@@ -114,6 +126,7 @@ h2{
    }
 
    #botao-entrar{
+    font-family:"Bebas Neue";
     cursor:pointer;
     font-size: 15px;
     color: rgb(255, 255, 255);
@@ -151,7 +164,6 @@ h2{
    .email-container{
     display:flex;
     justify-content:center;
-    margin:auto;
 
     
    }
@@ -159,10 +171,32 @@ h2{
 #caixa-de-email{
 
     width: 500px;
-    height: 30px;
+    height: 50px;
 
 }
 
-   
+.Titulo-Principal{
+    font-family:"Bebas Neue";
+    color: #ffffff;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.Mini-Titulo1{
+    font-family:"Bebas Neue";
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Mini-Titulo2{
+    font-family:"Bebas Neue";
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
 
 /*=====================================================================================*/
