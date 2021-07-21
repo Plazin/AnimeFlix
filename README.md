@@ -4,7 +4,7 @@
 
 ## 💭 Objetivo do site ?
  
- * Fazer um site experimental de stream de animes do estilo isekai
+ * Fazer um site experimental de stream de animes
 
 ## 🧐 Por que esse tema é o escolhido ? 
  
