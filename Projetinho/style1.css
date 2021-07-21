@@ -74,13 +74,14 @@ h3{
 
 #botao-do-bora{
     font-family:"Bebas Neue";
-    letter-spacing: 2px;
+    font-size: 20px;
+    letter-spacing: 1px;
     color: #ffffff;
     transition: .5s;
     font-weight: bold;
     text-align: center;
     width: 120px;
-    height: 55px;
+    height: 57px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 0px 0px 0px 0px;
@@ -95,12 +96,14 @@ h3{
     transform: scale(1.05);
     transition: .5s;
     opacity: 1;
-    box-shadow: inset 0 0 0 25px #000000;
-    color: rgb(255, 255, 255)
+    box-shadow: inset 0 0 0 25px #b60000;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(247, 245, 245, 0.027), 0 6px 6px rgba(240, 235, 235, 0.23);
    }
 
    #botao-idioma{
     font-family:"Bebas Neue";
+    font-size: 18px;
     cursor:pointer;
     color: #000000;
     transition: .5s;
@@ -110,7 +113,7 @@ h3{
     height: 20px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
-    margin: 30px 0px 0 1500px; 
+    margin: 30px 0px 0 1500px;
     padding: 4px;
     border-color: rgb(255, 255, 255);
     background-color: #ffffff;
@@ -127,13 +130,13 @@ h3{
 
    #botao-entrar{
     font-family:"Bebas Neue";
+    font-size: 17px;
     cursor:pointer;
-    font-size: 15px;
     color: rgb(255, 255, 255);
     transition: .5s;
     font-weight: bold;
     text-align: center;
-    width: 100px;
+    width: 140px;
     height: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -145,11 +148,12 @@ h3{
 
    #botao-entrar:hover{
 
+    cursor:pointer;
     transform: scale(1.05);
     transition: .5s;
     opacity: 1;
-    box-shadow: inset 0 0 0 25px #a30000;
-    color: rgb(255, 255, 255)
+    box-shadow: inset 0 0 0 25px #ffffff;
+    color: rgba(173, 0, 0, 0.897)
    }
 
    a{
@@ -162,14 +166,14 @@ h3{
    }
 
    .email-container{
+    margin: 0px 0px 0px 0px;
     display:flex;
     justify-content:center;
-
     
    }
 
 #caixa-de-email{
-
+    font-size: 24px;
     width: 500px;
     height: 50px;
 
@@ -199,4 +203,74 @@ h3{
     justify-content: center;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("Imagens/fundo_estrelado.jpg");
+  
+    /* Set a specific height */
+    min-height: 1500px;
+    max-height: 2200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+.caixa-1{
+
+    margin-top: 0px;
+    padding-top:10px;
+    width: 1900px;
+    height: 500px;
+
+}
+
+.texto-caixa-1{
+
+    color:#ffffff;
+    margin-top: 120px;
+    background-color: #161616;
+    height: 400px;
+
+}
+
+.caixa-2{
+
+    margin-top: 0px;
+    padding-top:10px;
+    width: 1900px;
+    height: 500px;
+
+}
+
+.texto-caixa-2{
+
+    color:#ffffff;
+    margin-top: 150px;
+    background-color: #161616;
+    height: 400px;
+
+}
+
+.caixa-3{
+
+    margin-top: 0px;
+    padding-top:10px;
+    width: 1900px;
+    height: 500px;
+
+}
+
+.texto-caixa-3{
+
+    color:#ffffff;
+    margin-top: 150px;
+    background-color: #161616;
+    height: 200px;
+
+}
 /*=====================================================================================*/
