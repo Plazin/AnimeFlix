@@ -7,6 +7,17 @@ body{
 
 }
 
+a{
+
+    text-decoration-line: unset ;
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+ }
+
+ /* ==============================================================================PARTE SUPERIOR DA PAGINA ======================================================================= */ 
+
 .barra-superior{
 
     width: 100%;
@@ -17,7 +28,7 @@ body{
 
 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagens/fundo\ projetin.png);
 width: 100%;
-height: 800px;
+height: 940px;
 background-position: right;
 
 }
@@ -89,9 +100,9 @@ h3{
     border-color: rgba(173, 0, 0, 0);
     box-shadow: 0 10px 20px rgba(247, 245, 245, 0.027), 0 6px 6px rgba(240, 235, 235, 0.23);
     background-color: #be0404;
-   }
+}
 
-   #botao-do-bora:hover{
+#botao-do-bora:hover{
     cursor:pointer;
     transform: scale(1.05);
     transition: .5s;
@@ -99,9 +110,9 @@ h3{
     box-shadow: inset 0 0 0 25px #b60000;
     color: rgb(255, 255, 255);
     box-shadow: 0 10px 20px rgba(247, 245, 245, 0.027), 0 6px 6px rgba(240, 235, 235, 0.23);
-   }
+}
 
-   #botao-idioma{
+#botao-idioma{
     font-family:"Bebas Neue";
     font-size: 18px;
     cursor:pointer;
@@ -117,18 +128,18 @@ h3{
     padding: 4px;
     border-color: rgb(255, 255, 255);
     background-color: #ffffff;
-   }
+}
 
-   #botao-idioma:hover{
+ #botao-idioma:hover{
     cursor:pointer;
     transform: scale(1.05);
     transition: .5s;
     opacity: 1;
     box-shadow: inset 0 0 0 25px #000000;
     color: rgb(255, 255, 255)
-   }
+}
 
-   #botao-entrar{
+ #botao-entrar{
     font-family:"Bebas Neue";
     font-size: 17px;
     cursor:pointer;
@@ -144,9 +155,9 @@ h3{
     padding: 4px;
     border-color: rgb(184, 28, 0);
     background-color: #a50000;
-   }
+}
 
-   #botao-entrar:hover{
+#botao-entrar:hover{
 
     cursor:pointer;
     transform: scale(1.05);
@@ -154,23 +165,14 @@ h3{
     opacity: 1;
     box-shadow: inset 0 0 0 25px #ffffff;
     color: rgba(173, 0, 0, 0.897)
-   }
+}
 
-   a{
-
-    text-decoration-line: unset ;
-    text-decoration: none; 
-    color: rgb(255, 255, 255);
-    text-decoration: none; 
-    color: rgb(255, 255, 255); 
-   }
-
-   .email-container{
-    margin: 0px 0px 0px 0px;
-    display:flex;
-    justify-content:center;
+.email-container{
+ margin: 0px 0px 0px 0px;
+display:flex;
+justify-content:center;
     
-   }
+}
 
 #caixa-de-email{
     font-size: 24px;
@@ -203,56 +205,81 @@ h3{
     justify-content: center;
 }
 
+
+
+
+
+/* ==============================================================================PARTE INFERIOR DA PAGINA ======================================================================= */
+
+
+
+
+
+
+
+
 .parallax {
-    /* The image used */
-    background-image: url("Imagens/fundo_estrelado.jpg");
-  
-    /* Set a specific height */
-    min-height: 1500px;
-    max-height: 2200px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-
+/* The image used */
+ background-image: url("Imagens/fundo_estrelado.jpg");
+/* Set a specific height */
+ height: 100%;
+ width: 100%;
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.027), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
 
 .caixa-1{
 
-    margin-top: 0px;
-    padding-top:10px;
-    width: 1900px;
-    height: 500px;
+    margin-top: -120px;
+    padding-top:0px;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
 
+.caixa-1:hover{
+
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    
 }
 
 .texto-caixa-1{
 
+    display: grid;
     color:#ffffff;
     margin-top: 120px;
     background-color: #161616;
     height: 400px;
-
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.027), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .caixa-2{
 
-    margin-top: 0px;
-    padding-top:10px;
-    width: 1900px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
 
+.caixa-2:hover{
+
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    
 }
 
 .texto-caixa-2{
 
+    display: grid;
     color:#ffffff;
-    margin-top: 150px;
+    margin-top: 120px;
     background-color: #161616;
     height: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.027), 0 6px 6px rgba(0, 0, 0, 0.23);
 
 }
 
@@ -260,7 +287,7 @@ h3{
 
     margin-top: 0px;
     padding-top:10px;
-    width: 1900px;
+    width: 100%;
     height: 500px;
 
 }
@@ -271,6 +298,93 @@ h3{
     margin-top: 150px;
     background-color: #161616;
     height: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.027), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.grid-1{
+
+    padding: 25px 0px 0px 280px;
+    display: flex;
+    font-family: "Bebas Neue";
+    font-size: 45px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.grid-2{
+
+
+padding: 0px 0px 30px 280px;
+font-family:"Bebas Neue";
+grid-column:1/2;
+grid-row:2/2;
+margin: 0px;
 
 }
+
+.grid-3{
+
+grid-column:2/2;
+grid-row: 1/span 2;
+
+}
+
+#img-tv{
+
+width: 500px;
+height: auto;
+
+}
+
+.grid-4{
+
+    display: flex;
+    font-family: "Bebas Neue";
+    font-size: 45px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.grid-5{
+
+    padding: 0px 0px 30px 280px;
+    font-family:"Bebas Neue";
+    grid-column:2/2;
+    grid-row:2/2;
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+}
+
+.grid-6{
+
+    grid-column:1/2;
+    grid-row: 1/span 2;
+    margin-left: 250px;
+}
+    
+
+#img-celular{
+
+    width: 290px;
+    height: auto;
+    
+}
+
+.contato{
+
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    padding: 75px 30% 0px 30%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
 /*=====================================================================================*/
