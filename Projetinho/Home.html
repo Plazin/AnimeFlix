@@ -14,6 +14,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
 <body>
@@ -44,41 +45,88 @@
 
   <div class= "menu-inferior">
         <div class= "parallax">
+
           <div class="caixa-1">
             <div class="texto-caixa-1">
-              <div class="grid-1"><h1> Assista na TV. </h1></div>
-              <div class="grid-2"><h2 style="margin:0%"> Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos. </h2></div>
-              <div class="grid-3"><img id="img-tv" src="Imagens/tv.png" alt="televisao"></div>
+              <div class="grid-1">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500" >
+                <h1> Assista na TV.</h1>
+              </div>
+            </div>
+                <div class="grid-2">
+                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2500" >
+                  <h2 style="margin:0%"> 
+                  Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos. </h2>
+                </div>
+                </div>
+                  <div class="grid-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" >
+                      <img id="img-tv" src="Imagens/tv.png" alt="televisao">
+                    </div>
+                  </div>
             </div>
           </div>
 
-          <div id="caixa-2">
+          <div class="caixa-2">
               <div class="texto-caixa-2">
-                <div class="grid-4"><h1> Assista no Celular.</h1></div>
-                <div class="grid-5"><h2 style="margin:0%"> Baixe e assista no conforto do seu celular. Em qualquer lugar, a qualquer hora.</h2></div>
-                <div class="grid-6"><img id="img-celular" src="Imagens/img-celular.png" alt="celular"></div>
+                <div class="grid-4">
+                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" >
+                  <h1> Assista no Celular.</h1>
+                 </div>
+                </div>
+
+                  <div class="grid-5">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1750" >
+                    <h2 style="margin:0%"> Baixe e assista no conforto do seu celular. Em qualquer lugar, a qualquer hora.</h2>
+                    </div>
+                  </div>
+
+                    <div class="grid-6">
+                      <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="250" >
+                        <img id="img-celular" src="Imagens/img-celular.png" alt="celular">
+                      </div>
+
+                    </div>
               </div>
           </div>
 
-          <div id="caixa-3">
+          <div class="caixa-3">
             <div class="texto-caixa-3">
-              <div class="contato">
-                
-                <h1>Contato:</h1>
-                <h2>exemplo@exemplo.com.br</h2>
-                <h2>(11) 4002-8922</h2>
               
+              <div class="contato">
+                  
+                  <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" >
+                  <h2>Contato:</h2></div>
+
+                  <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" >
+                  <h2>exemplo@exemplo.com.br</h2></div>
+                    
+                  <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2000" >
+                  <h2>(11) 4002-8922 </h2></div>
+                
+               </div>
               </div>
             </div>
-         </div>
-            
+        </div>  
+   </div>     
+    
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+    </script>
 
-        </div>     
-       
-  </div>
+    <script>
+    AOS.init();
+    </script>
 
-
+<!--data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+  -->
 </body>
 
 </html>

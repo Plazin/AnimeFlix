@@ -7,6 +7,12 @@ body{
 
 }
 
+form{
+
+    display: flex;
+    align-items: center;
+}
+
 a{
 
     text-decoration-line: unset ;
@@ -62,6 +68,7 @@ font-size: 90px;
     font-size: 40px;
     }
 
+    
 h1{
     text-shadow: 0.5px 0.5px #000000;
     padding: 0;
@@ -212,7 +219,11 @@ justify-content:center;
 /* ==============================================================================PARTE INFERIOR DA PAGINA ======================================================================= */
 
 
+.titulo-das-caixas{
+    font-family:"Bebas Neue";
+    font-size:2em;
 
+}
 
 
 
@@ -276,14 +287,14 @@ justify-content:center;
 
     display: grid;
     color:#ffffff;
-    margin-top: 120px;
+    margin-top: 20px;
     background-color: #161616;
     height: 400px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.027), 0 6px 6px rgba(0, 0, 0, 0.23);
 
 }
 
-.caixa-3{
+/*.caixa-3{
 
     margin-top: 0px;
     padding-top:10px;
@@ -291,11 +302,12 @@ justify-content:center;
     height: 500px;
 
 }
+*/
 
 .texto-caixa-3{
 
     color:#ffffff;
-    margin-top: 150px;
+    margin-top: 20px;
     background-color: #161616;
     height: 200px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.027), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -378,13 +390,18 @@ height: auto;
 
     font-family: "Bebas Neue";
     font-size: 20px;
-    padding: 75px 30% 0px 30%;
+    padding: 75px 30% 35px 30%;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
+}
+
+#fade-up{
+
+    transition: 10s;
 }
 
 /*=====================================================================================*/
