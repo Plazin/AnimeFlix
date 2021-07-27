@@ -32,7 +32,7 @@ a{
 
 .menu{
 
-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagens/fundo\ projetin.png);
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/fundo\ projetin.png);
 width: 100%;
 height: 940px;
 background-position: right;
@@ -231,7 +231,7 @@ justify-content:center;
 
 .parallax {
 /* The image used */
- background-image: url("Imagens/fundo_estrelado.jpg");
+ background-image: url("assets/images/fundo_estrelado.jpg");
 /* Set a specific height */
  height: 100%;
  width: 100%;

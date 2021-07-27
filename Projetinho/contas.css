@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+
+ background-color:#141414fd;    
+ margin: 0%;
+ padding: 0px;
+
+}
+
+.titulo-contas{
+
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    font-family:"Bebas Neue";
+    font-size:80px;
+    color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+.logo-tamanho{
+
+    padding: 20px 0px 0px 50px;
+    width: auto ;
+    height: 100px;
+}
+
+.grid-contas{
+
+display: flex;
+justify-content: center;
+letter-spacing: 2px;
+
+}
+
+.conta-1{
+
+    border-radius: 10px;
+    cursor:pointer;
+    width: 200px;
+    height: auto;
+    transition: .5s;
+}
+
+.conta-1:hover{
+
+    transform: scale(1.05);
+    transition: .5s;
+    box-shadow: 0 10px 10px rgb(0, 0, 0), 0 6px 6px rgb(5, 3, 3);
+
+}
+
+.profile-1{
+
+    font-size: 25px;
+    font-family:"Bebas Neue";
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.conta-2{
+
+    border-radius: 10px;
+    cursor:pointer;
+    margin: 0px 0px 0px 30px;
+    width: 200px;
+    height: auto;
+    transition: .5s;
+}
+
+.conta-2:hover{
+
+    transform: scale(1.05);
+    transition: .5s;
+    box-shadow: 0 10px 10px rgb(0, 0, 0), 0 6px 6px rgb(5, 3, 3);
+}
+
+.profile-2{
+
+    font-size: 25px;
+    font-family:"Bebas Neue";
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 30px;
+}
+
+.adicione-um-perfil{
+
+    border-radius: 10px;
+    cursor:pointer;
+    margin: 0px 0px 0px 30px;
+    width: 210px;
+    height: auto;
+    transition: .5s;
+
+}
+
+.adicione-um-perfil:hover{
+
+    border: 40px;
+    transform: scale(1.05);
+    transition: .5s;
+    box-shadow: 0 10px 10px rgb(0, 0, 0), 0 6px 6px rgb(5, 3, 3);
+
+}
+
+.profile-3{
+
+    font-size: 25px;
+    font-family:"Bebas Neue";
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 30px;
+}
+
+.gerenciar-perfis{
+
+    padding: 75px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botao-do-gerenciar{
+
+    transition: .5s;
+    cursor:pointer;
+}
+
+.botao-do-gerenciar:hover{
+
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
