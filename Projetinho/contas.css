@@ -53,9 +53,10 @@ letter-spacing: 2px;
 
 .profile-1{
 
+    font-weight: normal;
     font-size: 25px;
     font-family:"Bebas Neue";
-    color: white;
+    color: #a5a5a5;
     display: flex;
     justify-content: center;
     margin: 25px 0px 0px 0px;
@@ -80,9 +81,10 @@ letter-spacing: 2px;
 
 .profile-2{
 
+    font-weight: normal;
     font-size: 25px;
     font-family:"Bebas Neue";
-    color: white;
+    color: #a5a5a5;
     display: flex;
     justify-content: center;
     margin: 25px 0px 0px 30px;
@@ -110,9 +112,10 @@ letter-spacing: 2px;
 
 .profile-3{
 
+    font-weight: normal;
     font-size: 25px;
     font-family:"Bebas Neue";
-    color: white;
+    color: #a5a5a5;
     display: flex;
     justify-content: center;
     margin: 25px 0px 0px 30px;

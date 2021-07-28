@@ -132,7 +132,7 @@ h3{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     margin: 30px 0px 0 1500px;
-    padding: 4px;
+    padding: 8px;
     border-color: rgb(255, 255, 255);
     background-color: #ffffff;
 }
@@ -142,8 +142,7 @@ h3{
     transform: scale(1.05);
     transition: .5s;
     opacity: 1;
-    box-shadow: inset 0 0 0 25px #000000;
-    color: rgb(255, 255, 255)
+    
 }
 
  #botao-entrar{
@@ -159,19 +158,19 @@ h3{
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 30px 0px 0 25px;
-    padding: 4px;
+    padding: 8px;
     border-color: rgb(184, 28, 0);
     background-color: #a50000;
 }
 
 #botao-entrar:hover{
 
+    
     cursor:pointer;
     transform: scale(1.05);
     transition: .5s;
-    opacity: 1;
-    box-shadow: inset 0 0 0 25px #ffffff;
-    color: rgba(173, 0, 0, 0.897)
+    
+    color: #a50000 !important;
 }
 
 .email-container{
@@ -189,6 +188,7 @@ justify-content:center;
 }
 
 .Titulo-Principal{
+    padding-top: 220px ;
     font-family:"Bebas Neue";
     color: #ffffff;
     font-size: 90px;
