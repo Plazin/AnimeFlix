@@ -1,0 +1,17 @@
+.logo-top{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.icone-do-perfil{
+
+    width: auto;
+    height: 50px;
+    margin: 50px 100px 0px 0px;
+    border-radius: 5px;    
+   
+}
