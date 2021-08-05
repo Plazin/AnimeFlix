@@ -109,12 +109,11 @@ h3{
 
 #botao-do-bora:hover{
     cursor:pointer;
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: .5s;
     opacity: 1;
     box-shadow: inset 0 0 0 25px #b60000;
     color: rgb(255, 255, 255);
-    
 }
 
 #botao-idioma{

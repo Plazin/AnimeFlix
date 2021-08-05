@@ -1,3 +1,10 @@
+.anime-em-destaque{
+
+    background: linear-gradient( to right, rgba(0, 0, 0, 0.603) -25rem, transparent), linear-gradient(to top, black 1rem, transparent ), url(/assets/images/banner-patrasche.png);
+    height: 850px;
+    background-size: cover;
+}
+
 .logo-top{
 
     width: 100%;
@@ -9,8 +16,9 @@
 
 .icone-do-perfil{
 
+    cursor: pointer;
     width: auto;
-    height: 50px;
+    height: 40px;
     margin: 50px 100px 0px 0px;
     border-radius: 5px;    
    
