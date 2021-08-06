@@ -209,6 +209,7 @@ justify-content:center;
 
 .Mini-Titulo2{
     font-family:"Bebas Neue";
+    letter-spacing: 1px;
     color: #ffffff;
     font-size: 20px;
     display: flex;
@@ -393,7 +394,7 @@ height: auto;
 
     font-family: "Bebas Neue";
     font-size: 20px;
-    padding: 75px 30% 35px 30%;
+    padding: 60px 30% 35px 30%;
     display: flex;
     align-content: center;
     flex-wrap: wrap;

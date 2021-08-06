@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="catalogo.css" />
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet" type="text/css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
 
   </head>
 
@@ -16,29 +18,171 @@
         <header>
             <div class="logo-top">
                 <img class="logo-tamanho" src="/assets/images/logo novo animeflix.png">
-
                   <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" >
                     <img class="icone-do-perfil" src="/assets/images/perfil1.png">
                   </div>
             </div>
         </header>
-      </div>
-          <div class= "carrossel-1">
+          <div class= "anime-re-zero">
+            <img class ="re-zero-logo" src="/assets/images/re zero logo.png">
+            <h2 class="texto-re-zero">Um garoto é subitamente invocado para um mundo de fantasia, onde ele tem que
+              enfrentar vários desafios enquanto o seu único poder é voltar no tempo
+              quando morre.</h2>
 
+              <div class="botoes-re-zero">
+                
+                <div class="botao-assistir">Assistir</div>
+
+                <div class="botao-informacoes">Informações</div>
+              </div>
           </div>
+      </div>
+
+   <div class="fundo-inferior">
+      <h2 class="titulo-do-catalogo">Animes : </h2>
+
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Overlord_Poster.png">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Re_Zero_poster.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/youjosekni_poster.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Aincrad-763x1080.png">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Hataraku-Maou-sama.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/How-NOT-to-Summon-a-Demon-Lord-Ω-1.png">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Konosuba_poster.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/C55f3987196f62f3d02385f8086b8ce6.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/913faEGg2XL._AC_SL1500_.jpg">
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <h2 class="titulo-do-catalogo2">Outros Animes : </h2>
+
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Hataraku-Maou-sama.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/C55f3987196f62f3d02385f8086b8ce6.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/youjosekni_poster.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/How-NOT-to-Summon-a-Demon-Lord-Ω-1.png">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Overlord_Poster.png">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Aincrad-763x1080.png">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/913faEGg2XL._AC_SL1500_.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Re_Zero_poster.jpg">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="/assets/images/Konosuba_poster.jpg">
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <footer>
+          <div class="caixa-3">
+            <div class="texto-caixa-3">
+              
+              <div class="contato">
+                  
+                  
+                  <h2>Contato:</h2>
+
+                  
+                  <h2>exemplo@exemplo.com.br</h2>
+                    
+                  
+                  <h2>(11) 4002-8922 </h2>
+                
+               </div>
+              </div>
+            </div>
+        </footer>
+      </div>
 
         
-        
-        
-        
-        
-        
+        <!--Fadding Animation Script-->
         <script src="https://unpkg.com/aos@next/dist/aos.js">
         </script>
     
         <script>
         AOS.init();
         </script>
+
+     <!--Carrossel Script-->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <script>
+      var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 9,
+      spaceBetween: 10,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+       },
+      });
+      </script>
         
     </body>
   </html>
