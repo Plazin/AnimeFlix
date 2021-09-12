@@ -20,8 +20,8 @@
 
 ## 👨🏻‍💻 Tecnologias utilizadas: 
 
-* HTML 
+* HTML & Bootstrap
 
 * CSS 
 
-* Javascript (em breve)
+* Javascript
