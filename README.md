@@ -15,8 +15,8 @@
 - [x] Página Home
 - [x] Página dos animes
 - [ ] Página de contato
-- [ ] Implementação de JS
-- [ ] Aprimoramento do CSS
+- [x] Implementação de JS
+- [x] Aprimoramento do CSS
 
 ## 👨🏻‍💻 Tecnologias utilizadas: 
 
