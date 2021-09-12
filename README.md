@@ -1,6 +1,6 @@
 # AnimeFlix
 
-<img src="https://imgur.com/pHvGbMk" alt="memory-game" width="200"/>
+<img src="https://i.imgur.com/pHvGbMk.gif" alt="memory-game" width="200"/>
 
 ## 💭 Objetivo do site ?
  
